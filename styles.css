@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: grey;
+    
+}
+
+.main-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+h1{
+    color: rgb(37, 22, 134);
+    text-align: center;
+    font-size:xx-large;
+    padding-bottom: 1rem;
+}
+
+button{
+    border-style: double;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 4px 6px 4px 6px;
+    box-shadow: 1px 2px 5px 2px rgb(0, 255, 17);
+}
+
+button:hover{
+    color: blue;
+    background-color: #00FF00;
+    transition: ease-in 0.4s;
+    transform:scale3d(1, 1.1, 0.3);
+}
+
+#newarr{
+    margin-right: 200px;
+    padding: 1rem;
+    font-weight: 600;
+}
+
+#bubble,#selection,#insertion,#merge,#quick,#sizer,#speed{
+    margin-right: 20px;
+    padding: 1rem;
+    font-weight: 600;
+}
+
+
+#bar{
+    color: red;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    flex-direction: row;
+    width: 100%;
+}
+  
+.baritem {
+
+    background: rgb(255, 0, 247);
+    border: 2px solid rgb(0, 4, 255);
+    width: 0.7rem;
+  }
+
+a{
+    text-decoration: none;
+    color: aqua;
+}
+
+a:hover{
+    color: #00FF00;
+    transition: ease-in 0.5s;
+}
+
+.nav-bar{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: darkgoldenrod;
+}
+.nav-buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
